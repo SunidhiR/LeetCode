@@ -1,0 +1,3 @@
+class Solution:
+    def isPrefixString(self, s, words):
+        return s in accumulate(words)
